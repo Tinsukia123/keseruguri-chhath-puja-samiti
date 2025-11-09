@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Keseruguri Chhath Puja Samiti</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo"><img src="images/LOGO.jpg" alt="Logo"></div>
+        <div class="title">
+          <div class="en">Keseruguri Chhath Puja Samiti</div>
+          <div class="sub">Established 16 August 1963 | Registered under Society Act XXI of 1860</div>
+        </div>
+      </div>
+      <div class="lang-switch" aria-label="Language switch">
+        <button onclick="setLang('hi')">हिन्दी</button>
+        <button onclick="setLang('hg')">Hinglish</button>
+        <button onclick="setLang('en')">English</button>
+        <button onclick="setLang('as')">অসমীয়া</button>
+      </div>
+    </header>
+
+    <nav class="topnav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#donation">Donation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+      <div class="left"><img src="images/LOGO.jpg" alt="Logo small"></div>
+      <div class="center">
+        <h1>Keseruguri Chhath Puja Samiti</h1>
+        <p>केसेरुगुरी छठ पूजा समिति — কেছেৰুগুৰি ছঠ পূজা সমিতি | Reg. No: RS/TSK/244/RFSRS/202511409</p>
+        <div class="chips">
+          <div class="chip">केसेरुगुरी छठ पूजा समिति</div>
+          <div class="chip">কেছেৰুগুৰি ছঠ পূজা সমিতি</div>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn" onclick="alert('UPI / QR coming soon. You can email keserugurichhathpujasamiti@gmail.com to donate for now.')">Donate via UPI – Coming Soon</button>
+        <div style="height:8px"></div>
+        <a class="btn secondary" href="mailto:keserugurichhathpujasamiti@gmail.com">Contact / Email</a>
+      </div>
+    </div>
+
+    <main>
+      <section id="home" class="card">
+        <h2>Welcome / स्वागत / স্বাগতম</h2>
+        <div class="lang hi active">
+          <p>केसेरुगुरी छठ पूजा समिति में आपका हार्दिक स्वागत। यह समिति 16 अगस्त 1963 को स्थापित हुई और समाज अधिनियम XXI, 1860 के अंतर्गत पंजीकृत है। हम परंपरा और भक्ति के साथ छठ पूजा का आयोजन करते हैं।</p>
+        </div>
+        <div class="lang hg">
+          <p>Keseruguri Chhath Puja Samiti me aapka swagat hai. Ye samiti 16 August 1963 ko sthapit hui thi aur Society Act XXI, 1860 ke tahat registered hai. Hum parampara aur bhakti ke sath chhath puja ka aayojan karte hain.</p>
+        </div>
+        <div class="lang en">
+          <p>Welcome to Keseruguri Chhath Puja Samiti. Established on 16 August 1963 and registered under Society Act XXI of 1860. We organize Chhath Puja each year with devotion and tradition.</p>
+        </div>
+        <div class="lang as"><p class="line-assamese">কেছেৰুগুৰি ছঠ পূজা সমিতিত আপোনালোকক স্বাগতম। এই সমিতিখন ১৬ আগষ্ট ১৯৬৩ চনত প্ৰতিষ্ঠিত আৰু সমাজ আইন XXI, ১৮৬০ অনুসৰি পঞ্জীয়ৃত।</p></div>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About Chhath Puja / छठ पूजा के बारे में / ছঠ পূজাৰ বিষয়ে</h2>
+        <div class="grid-2">
+          <div>
+            <div class="lang en">
+              <p>Chhath Puja is a sacred festival dedicated to the Sun God (Surya Dev) and Chhathi Maiya. Devotees offer prayers and arghya to the setting and rising Sun for the wellbeing of family and society.</p>
+            </div>
+            <div class="lang hi">
+              <p>छठ पूजा सूर्य देव और छठी मैया को समर्पित एक पवित्र पर्व है। भक्त अस्ताचल और उदयाचल सूर्य को अर्घ्य अर्पित करते हैं और परिवार एवं समाज की भलाई की कामना करते हैं।</p>
+            </div>
+            <div class="lang hg">
+              <p>Chhath Puja Surya Dev aur Chhathi Maiya ko samarpit hai. Bhakt surya ko arghya dete hain aur parivar ke kalyaan ki prarthana karte hain.</p>
+            </div>
+            <div class="lang as"><p class="line-assamese">ছঠ পূজা সূৰ্যদেৱ আৰু ছঠী মাইকেই সমৰ্পিত এক পবিত্ৰ উৎসৱ। ভক্তসকলে সূৰ্যক অৰ্ঘ্য দিয়ে আৰু পৰিয়ালৰ মঙ্গলৰ কামনা কৰে।</p></div>
+          </div>
+          <div>
+            <h3>छठ पूजा की हार्दिक शुभकामनाएँ</h3>
+            <div class="lang hi"><p>केसेरुगुरी छठ पूजा समिति की ओर से आप सभी श्रद्धालुओं को छठ पर्व की हार्दिक शुभकामनाएँ। सूर्य देव व छठी मैया आप सब पर अपनी कृपा बनाए रखें।</p></div>
+            <div class="lang en"><p>Warm greetings on Chhath Puja from Keseruguri Chhath Puja Samiti. May Surya Dev and Chhathi Maiya bless everyone with health and prosperity.</p></div>
+            <div class="lang as"><p class="line-assamese">কেছেৰুগুৰি ছঠ পূজা সমিতিৰ পক্ষৰ পৰা আপোনালোকক ছঠ পূজাৰ আন্তৰিক শুভেচ্ছা।</p></div>
+            <div class="lang hg"><p>Keseruguri Chhath Puja Samiti ki taraf se sabhi ko chhath ki hardik shubhkamnayein.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="card">
+        <h2>📸 Gallery</h2>
+        <p>Moments from our Chhath Puja celebrations — devotees offering arghya and cultural gatherings.</p>
+
+        <div class="slider">
+          <div class="slides" id="slides"><!-- slides injected by script --></div>
+          <div class="caption" id="caption"></div>
+          <div class="controls" id="dots"></div>
+        </div>
+
+        <div class="thumbs" id="thumbs"><!-- thumbs injected --></div>
+      </section>
+
+      <section id="donation" class="card">
+        <h2>💰 Donation / दान / অনুদান</h2>
+        <div class="donate-row">
+          <button class="btn" onclick="alert('UPI / QR coming soon. You can email keserugurichhathpujasamiti@gmail.com to donate for now.')">Donate via UPI – Coming Soon</button>
+          <div class="note">For now: <a href="mailto:keserugurichhathpujasamiti@gmail.com">keserugurichhathpujasamiti@gmail.com</a></div>
+        </div>
+        <div style="margin-top:12px">
+          <div class="lang hi"><p>केसेरुगुरी छठ पूजा समिति आपके सहयोग से आगे बढ़ती है। आपके दान से पूजा स्थल, श्रद्धालुओं की सुविधाएँ और समाज सेवा संभव होती है।</p></div>
+          <div class="lang en"><p>Your generous support helps us maintain the puja venue, provide facilities, and run community programs.</p></div>
+          <div class="lang as"><p class="line-assamese">আপোনাৰ অনুদানেৰে আমাৰ সমিতি আগবাঢ়ে।</p></div>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h2 id="contactHeading">📞 Contact</h2>
+        <p>📍 Keseruguri Gaon, Borhapjan, P.O. Borhapjan, Dist. Tinsukia (Assam) – 786150</p>
+        <p>📧 <a href="mailto:keserugurichhathpujasamiti@gmail.com">keserugurichhathpujasamiti@gmail.com</a></p>
+        <p class="small">Registration No: RS/TSK/244/RFSRS/202511409</p>
+      </section>
+
+    </main>
+
+    <footer>© 2025 Keseruguri Chhath Puja Samiti | Established 16 Aug 1963 | Registered under Society Act XXI of 1860</footer>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
